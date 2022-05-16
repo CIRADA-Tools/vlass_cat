@@ -1,0 +1,14 @@
+parameter	value
+outdir		''
+bands		'w1'
+id_col		'unwise_detid'
+ra_col		'ra'
+dec_col		'dec'
+mask_col	'Mask'
+sg_col		'stargal'
+mag_col		'X_mag'
+mag_err_col	'X_mag_err'
+flux_col	'Total_flux'
+flux_err_col	'E_Total_flux'
+beam_size	10
+cal_errors	0.1
