@@ -1,6 +1,3 @@
-You need to get some files from the link below to the directory other_survey_data
-link is : https://www.canfar.net/storage/vault/list/cirada/data/vlass_cat/
-
 code to tidy up component table, produce host ID table, and finalise the catalogue
 
 vlass_compcat_vlad_stage2_yg.py tidies up pybdsf+vlad output, adds flags, run as

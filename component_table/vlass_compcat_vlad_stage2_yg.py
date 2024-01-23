@@ -3,7 +3,7 @@
 #### 17th April 2020
 ###run as vlass_compcat_vlad_stage2.py pybdsf_output_file subtile_file nvss_file first_file
 
-import sys
+
 import numpy as np, pandas as pd, argparse
 from astropy.io import fits
 from astropy.table import Table

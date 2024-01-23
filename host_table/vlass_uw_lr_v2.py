@@ -30,7 +30,7 @@ outfolder = 'LR_output/'
 #uw_in = 'input_data/CIRADA_VLASS1QL_input_unWISE_image_list_v1b.csv'
 
 ##likelihood ratio code to call
-lr_file = './host_table/likelihood_ratio_matching.py'
+lr_file = 'likelihood_ratio_matching.py'
 
 ##data parameters
 w1maglim = 18 ###vega magnitude limit to consider (default to 18)
@@ -408,9 +408,9 @@ def batch_run_lr(ifile_in, vfile_in, outfolder='LR_output/', countstep=200):
         
         ###set command arguments for running LR code
         command_args_sc = ['python3', lr_file, wcatfile, 'vlass_cat_sc.fits', maskfile, '--overwrite',
-                        '--config_file=./host_table/lr_config_sc.txt']
+                        '--config_file=lr_config_sc.txt']
         command_args_dt = ['python3', lr_file, wcatfile, 'vlass_cat_dt.fits', maskfile, '--overwrite',
-                           '--config_file=./host_table/lr_config_dt.txt']
+                           '--config_file=lr_config_dt.txt']
             
         ###files to remove after LR run
         remove_files = [maskfile, wcatfile, imfile_u, catfile_u, field+'_pw1cat_master.fits',
